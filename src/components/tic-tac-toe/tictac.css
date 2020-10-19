@@ -1,0 +1,41 @@
+.main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.gameBox {
+    height: 40px;
+    width: 40px;
+    max-width: 40px;
+    max-height: 40px;
+    border: 1px solid grey;
+}
+.gameBox:hover {
+    background-color: rgba(128, 128, 128, 0.151);
+}
+.gameBox img {
+    max-width: 25px;
+    max-height: 25px;
+}
+.main button {
+    border: 1px solid grey;
+    border-radius: 7px;
+    padding: 5px 10px;
+    margin: 10px;
+    cursor: pointer;
+    outline: none;
+}
+.main button:hover {
+    background-color: rgba(128, 128, 128, 0.219);
+}
+.main button:active {
+    background-color: rgba(216, 216, 216, 0.219);
+}
+.scoreboard th, .scoreboard td{
+    width: 60px;
+    height: 40px;
+    border: 1px solid grey;
+}
